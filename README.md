@@ -89,11 +89,11 @@ dotnet run
 
 #### 🧭 Usage
 
-1. 🌐 Open [http://localhost:5173](http://localhost:5173)  
-2. 🔐 Sign up or log in to your account  
-3. 🏙️ Search apartments by city, price range, and filters  
-4. ⭐ Save or 📢 publish listings  
-5. 👤 Access your personal dashboard to manage data and view stats  
+🌐 Open [http://localhost:5173](http://localhost:5173)  
+🔐 Sign up or log in to your account  
+🏙️ Search apartments by city, price range, and filters  
+⭐ Save or 📢 publish listings  
+👤 Access your personal dashboard to manage data and view stats  
 
 
 ---
