@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo.png" alt="Logo" width="40%" style="object-fit:cover;"/>
+  <img src="images/logo.png" alt="Logo" width="30%" style="object-fit:cover;"/>
 </p>
 
 <h1 align="center">🏙️ Appartment Search</h1>
