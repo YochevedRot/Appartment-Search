@@ -38,7 +38,7 @@ It provides a personal dashboard to manage saved listings, posted ads, and perso
 
 | Home Page | Apartment Details | Personal Area |
 |------------|------------------|----------------|
-| ![Home Page](images/homepage.jpg) | ![Details](images/details.jpg) | ![Personal Area](images/profile.jpg) |
+| ![Home Page](images/homePage.jpg) | ![Details](images/details.jpg) | ![Personal Area](images/personalArea.jpg) |
 <a href="https://github.com/YochevedRot/appartment-search/tree/main/images">More Screenshots</a>
 
 ---
