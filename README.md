@@ -31,8 +31,6 @@ It provides a personal dashboard to manage saved listings, posted ads, and perso
 - **Frontend:** ⚛️ React (Vite)
 - **Backend:** 🧱 .NET 8 Web API (C#) + Entity Framework Core  
 - **Database:** 🗄️ SQL Server  
-- **Authentication:** 🔐 JWT Tokens  
-- **Styling:** 🎨 TailwindCSS / CSS Modules  
 
 ---
 
@@ -87,16 +85,16 @@ Make sure your appsettings.json includes a valid connection string:
 dotnet run
 ```
 
+---
+
 #### 🧭 Usage
 1. Open http://localhost:5173
-
 2. Create an account or log in
-
 3. Search for apartments by city, price range, and filters
-
 4. Save or publish listings
-
 5. Access your personal area to manage data and view stats
+
+---
 
 #### 🔒 License
 
