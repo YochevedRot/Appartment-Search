@@ -51,3 +51,55 @@ It provides a personal dashboard to manage saved listings, posted ads, and perso
 ```bash
 git clone https://github.com/yourusername/appartment-search.git
 cd appartment-search
+```
+#### 2️⃣ Install client dependencies and run
+```bash
+cd AppartmentSearch-Client
+npm install
+npm run dev
+```
+#### 3️⃣ Setup and run the server
+```bash
+cd ../AppartmentSearch-Server
+dotnet restore
+dotnet build
+```
+#### 4️⃣ Configure the database
+If migrations already exist:
+```bash
+dotnet ef database update
+```
+If not:
+```bash
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
+Make sure your appsettings.json includes a valid connection string:
+```bash
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\\\mssqllocaldb;Database=AppartmentSearchDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
+```
+#### 5️⃣ Run the server
+```bash
+dotnet run
+```
+
+#### 🧭 Usage
+1. Open http://localhost:5173
+
+2. Create an account or log in
+
+3. Search for apartments by city, price range, and filters
+
+4. Save or publish listings
+
+5. Access your personal area to manage data and view stats
+
+#### 🔒 License
+
+This project is private and may not be copied, modified, or redistributed without explicit permission from the author.
+
+<p align="center"> Made with ❤️ by <a href="https://github.com/YochevedRot">Yocheved Rot</a> </p> 
