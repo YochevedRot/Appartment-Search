@@ -5,32 +5,33 @@
 <h1 align="center">🏙️ Appartment Search</h1>
 
 <p align="center">
-  A modern web application for searching apartments for sale.<br/>
-  Includes a personal area with saved ads, published listings, personal details, and recent searches.<br/>
+  A modern full-stack web application for searching apartments for sale.<br/>
+  Featuring a personalized dashboard with saved ads, published listings, user stats, and recent searches.
 </p>
 
 ---
 
-## About The Project
+## 🏡 About The Project
 
-**Appartment Search** is a full-stack real estate search platform that helps users find apartments for sale easily and efficiently.  
-It provides a personal dashboard to manage saved listings, posted ads, and personal data in a clean and intuitive interface.
+**Appartment Search** is a responsive real estate search platform built for simplicity and speed.  
+It enables users to find, save, and publish apartment listings through an intuitive and modern interface.
 
-### Features
-- 🏡 Apartment search by keywords and filters (city, price, rooms, etc.)  
-- ⭐ Save favorite listings for later  
-- 📢 Post and manage personal ads  
-- 👤 Personal area with user details and statistics  
-- 📊 View recent searches and activity summary  
-- 🧩 Full-stack architecture with clean separation between client and server  
+### ✨ Key Features
+- 🔍 **Smart search** by keywords and filters (city, price, rooms, etc.)  
+- ⭐ **Favorites system** — save listings for later  
+- 📢 **Ad management** — post, edit, and delete your own listings  
+- 👤 **Personal area** — manage your details and track statistics  
+- 📊 **Recent searches** and user activity insights  
+- ⚙️ **Clean full-stack architecture** — React + .NET Core + SQL Server  
 
 ---
 
 ## 🧩 Built With
 
-- **Frontend:** ⚛️ React (Vite)
+- **Frontend:** ⚛️ React (Vite)  
 - **Backend:** 🧱 .NET 8 Web API (C#) + Entity Framework Core  
 - **Database:** 🗄️ SQL Server  
+- **Authentication:** 🔐 JWT Tokens  
 
 ---
 
@@ -39,13 +40,16 @@ It provides a personal dashboard to manage saved listings, posted ads, and perso
 | Home Page | Apartment Details | Personal Area |
 |------------|------------------|----------------|
 | ![Home Page](images/homePage.png) | ![Details](images/details.png) | ![Personal Area](images/personalArea.png) |
-<a href="https://github.com/YochevedRot/appartment-search/tree/main/images">More Screenshots</a>
+
+<p align="center">
+  <a href="https://github.com/YochevedRot/appartment-search/tree/main/images">📸 View More Screenshots</a>
+</p>
 
 ---
 
 ## 🚀 Getting Started
 
-#### 1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/yourusername/appartment-search.git
 cd appartment-search
